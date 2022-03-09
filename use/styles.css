@@ -1,0 +1,216 @@
+:root
+{
+	--pinkred: 197 5 72;
+	--pinkwhite: 255 240 245;
+	--pinkwhiteopacity: 250 200 205;
+	--pinkgrey: 210 210 210;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.pink-color
+{
+	color: rgba(var(--pinkred));
+}
+.flex
+{
+	display: flex;
+}
+.inline-block
+{
+	display: inline-block;
+}
+
+body
+{
+
+	background:;
+	font-family: sans-serif;
+	letter-spacing: .02em;
+
+}
+
+#root
+{
+	max-width: 1200px;
+
+	margin: 0 auto;
+}
+ 
+.main.banner-contenaire
+{
+	background: rgba(var(--pinkred));
+	color: rgba(var(--pinkwhite));
+
+	display: block;
+	position: relative;
+	top: 0;
+}
+
+.main.banner-contenaire .left-content-item
+{
+	position: absolute;
+	top: 5%;
+	left: 42px;
+
+	height: 90%;
+
+	display: flex;
+	align-items: center;
+}
+
+.main.banner-contenaire .left-content-item .text.h
+{
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: rgba(var(--pinkwhite) / 70%);
+
+	width: 50px;
+}
+.main.banner-contenaire .left-content-item .bar-vert
+{
+	display: block;
+	height: 30px;
+	width: 3px;
+
+	margin: 25px auto;
+
+	background-color: rgba(var(--pinkwhite) / 70%);
+	border-radius: 4px;
+}
+
+.main.banner-contenaire .left-content-item li
+{
+	list-style: none;
+
+	margin-top: 12px;
+}
+
+.main.banner-contenaire .left-content-item li a
+{
+	height: 50px;
+	width: 50px;
+
+	display: block;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 2em;
+	text-decoration: none;
+	color: rgba(var(--pinkwhite) / 70%);
+}
+
+.main.banner-contenaire .left-content-item li a:hover
+{
+	color: rgba(var(--pinkwhite) / 100%);
+}
+
+.main.banner-contenaire .flex
+{
+	align-items: center;
+	justify-content: center;
+
+	min-height: 500px;
+}
+
+.main.banner-contenaire .left-content
+{
+	min-width: 500px;
+}
+
+.main.banner-contenaire .left-content .title
+{
+	font-size: 2.4em;
+
+	color: rgba(var(--pinkwhite));
+}
+
+.main.banner-contenaire .left-content .title.op
+{
+	color: rgba(var(--pinkwhiteopacity) / 80%);
+}
+
+.main.banner-contenaire .right-content
+{
+	
+}
+
+
+.main.banner-contenaire .right-content .text.vertical
+{
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
+.main.started-pack
+{
+	position: relative;
+	top: -80px;
+}
+
+.main.started-pack .flex
+{
+	align-items: center;
+	justify-content: center;
+}
+
+.main.started-pack .section.title
+{
+	margin: 0px 0 21px 0;
+}
+
+.main.started-pack .section.title .text.big
+{
+	text-align: center;
+
+	font-size: 1.2em;
+
+	text-transform: uppercase;
+
+	color: rgba(var(--pinkwhite));
+}
+
+.main.started-pack .inline-block.element
+{
+	width: 260px;
+
+	margin: 0 15px;
+
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.55);
+	border-radius: 5px;
+	box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+}
+
+.main.started-pack .inline-block.element .top.mini-star
+{
+	background: rgba(var(--pinkgrey));
+
+	min-height: 150px;
+
+	margin: 12px;
+
+	border-radius: 3px;
+}
+
+.main.started-pack .inline-block.element .center.desc-start
+{
+	margin: 24px 12px;
+
+	font-size: 1.012em;
+
+	border-radius: 3px;
+
+	line-height: 1.3em;
+}
