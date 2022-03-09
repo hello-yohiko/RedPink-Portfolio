@@ -4,11 +4,18 @@
 	--pinkwhite: 255 240 245;
 	--pinkwhiteopacity: 250 200 205;
 	--pinkgrey: 210 210 210;
+
+	--blue: 36 156 248;
 }
 *
 {
 	margin: 0;
 	padding: 0;
+}
+.contenaire-responzive
+{
+	max-width: 990px;
+	margin: 0 auto;
 }
 .pink-color
 {
@@ -154,7 +161,7 @@ body
 .main.started-pack
 {
 	position: relative;
-	top: -80px;
+	top: -65px;
 }
 
 .main.started-pack .flex
@@ -202,6 +209,8 @@ body
 	margin: 12px;
 
 	border-radius: 3px;
+
+	box-shadow: 0px 2px 8px rgba(var(--pinkgrey));
 }
 
 .main.started-pack .inline-block.element .center.desc-start
@@ -213,4 +222,71 @@ body
 	border-radius: 3px;
 
 	line-height: 1.3em;
+}
+
+
+.main.template-vitrine
+{
+	background-color: rgba(var(--blue));
+
+	min-height: 250px;
+}
+
+.main.template-vitrine .sect-header
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.main.template-vitrine .sect-header .text
+{
+	font-size: 1.3em;
+	text-align: center;
+	display: block;
+	margin: 12px 0;
+	color: rgba(var(--pinkwhite));
+}
+
+.main.template-vitrine .sect-content
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main.template-vitrine .sect-content .element.inline-block
+{
+	position: relative;
+
+	background: rgba(255, 255, 255, 0.55);
+
+	width: 260px;
+	height: 148px;
+
+	margin: 12px 8px;
+	/* From https://css.glass */
+	border-radius: 8px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.main.template-vitrine .sect-content .element.inline-block .item-contenaire
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.main.template-vitrine .sect-content .element.inline-block .item-contenaire .text.litle-big
+{
+	line-height: 1.7em;
 }

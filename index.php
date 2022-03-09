@@ -70,72 +70,82 @@
 						</div>
 
 					</div>
-
 				</div>
 				<div class="right-content">
-					
 					<div class="text">
-						
 						<div class="text xll litle vertical">
 							<h4>Developpeur</h4>
 							<h4>Front / Back - UI/UX</h4>
 						</div>
-
 					</div>
-
 				</div>
-
 			</div>
 		</section>
-
 		<section class="main started-pack">
-			
 			<div class="flex">
 				<div class="flex-contenaire">
 					<div class="section title">
-					
 						<div class="text big title">
 							<h4>à la une</h4>
 						</div>
-
 					</div>
 					<div class="while">
 						<div class="inline-block element">
-							
 							<div class="top mini-star">
 								
 							</div>
-
 							<div class="center desc-start">
-								
 								<p>
 									Grace moi, vous pourrez présenté votre projet d'une fassont simple. Pas de complexité et ses <span class="pink-color">Gratuit</span>
 								</p>
-
 							</div>
-
 						</div>
 						<div class="inline-block element">
-							
 							<div class="top mini-star">
 								
 							</div>
-
 							<div class="center desc-start">
-								
 								<p>
 									Grace moi, vous pourrez présenté votre projet d'une fassont simple. Pas de complexité et ses <span class="pink-color">Gratuit</span>
 								</p>
-
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</section>
-
+		<section class="main template-vitrine">
+			<div class="contenaire-responzive sect-header">
+				<div class="text big">
+					<h3>Mes Thème réalisé</h3>
+				</div>
+			</div>
+			<div class="contenaire-responzive sect-content">
+				<div class="list-template">
+					<div class="while horizontal 3element">
+						<?php for($i = 0; $i < 3; $i++) { ?>
+						<div class="element inline-block">
+							<div class="img item-contenaire">
+								
+							</div>
+							<div class="hover-view desc item-contenaire">
+								<div>
+									<div class="text litle-big">
+										<h4>RedPink</h4>
+									</div>
+									<div class="text litle">
+										<p>
+											Template, litle, redpink, 
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<?php } ?>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
 </body>
 </html>
